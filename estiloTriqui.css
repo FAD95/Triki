@@ -1,0 +1,77 @@
+body {
+    /* background-image: url('https://media3.giphy.com/media/d8iPm91TeShX4kHG69/giphy.gif?cid=ecf05e472adc8bc7574641bc2e7ae1a23dc005a865fdc8b0&rid=giphy.gif'); */
+    /* background-size: 100%; */
+    background: green;
+    
+    
+    
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* background: black; */
+    /* color: white; */
+    box-sizing: border-box;
+}
+
+.casilla {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+    background-color: rgb(0, 0, 0,50%);
+    color: red;
+    border: solid 3px red;
+}
+
+#cabezera {
+    background: rgb(0, 0, 0,90%);
+    text-align: center;
+    color: red;
+    font: 24px solid black;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border: solid 3px red;
+    border-radius: 0 0 10px 10px;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    text-align: center;
+    justify-content: center;
+    height: 127vh;
+    align-content: center;
+    transform: translateY(-20%);
+}
+
+#mensaje{
+    position: absolute;
+    bottom: 150px;
+}
+
+.boton {
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    position: absolute;
+    top: 8em;
+    right: 2em;
+    background: rgb(0, 0, 0,90%);
+}
+
+#boton_contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+#boton {
+    background: rgb(0, 0, 0,90%);
+    color: red;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border: solid 3px red;
+}
